@@ -1,8 +1,9 @@
 package receitas.genshin;
 
 import receitas.base.Receita;
+import receitas.base.Exibivel;
 
-public class Kirara extends Receita {
+public class Kirara extends Receita implements Exibivel {
 
     public Kirara() {
         super(

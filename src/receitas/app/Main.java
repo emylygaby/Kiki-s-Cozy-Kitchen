@@ -7,6 +7,7 @@ import receitas.studioGhibli.OvosComBacon;
 import receitas.genshin.Clorinde;
 import receitas.genshin.Arlecchino;
 import receitas.genshin.Kirara;
+import receitas.base.Exibivel;
 
 import java.util.Scanner;
 import java.util.*;
@@ -47,7 +48,7 @@ public class Main {
 }
 
     private static void exibirReceitasGenshin(Scanner scanner) {
-        Receita[] genshin = {new Arlecchino(), new Clorinde(), new Kirara()};
+        Exibivel[] genshin = {new Arlecchino(), new Clorinde(), new Kirara()};
 
         while(true) {
             try {
@@ -75,7 +76,7 @@ public class Main {
     }
 
     private static void exibirReceitasStudioGhibli(Scanner scanner) {
-        Receita[] studioGhibli = {new Onigiri(), new OvosComBacon(), new Lamen()};
+        Exibivel[] studioGhibli = {new Onigiri(), new OvosComBacon(), new Lamen()};
 
         while(true) {
             try {

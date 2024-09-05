@@ -1,9 +1,9 @@
-// src/receitas/doce/Pudim.java
 package receitas.studioGhibli;
 
 import receitas.base.Receita;
+import receitas.base.Exibivel;
 
-public class Onigiri extends Receita {
+public class Onigiri extends Receita implements Exibivel {
 
     public Onigiri() {
         super(

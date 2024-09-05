@@ -1,8 +1,9 @@
 package receitas.studioGhibli;
 
 import receitas.base.Receita;
+import receitas.base.Exibivel;
 
-public class Lamen extends Receita {
+public class Lamen extends Receita implements Exibivel {
 
     public Lamen() {
         super(

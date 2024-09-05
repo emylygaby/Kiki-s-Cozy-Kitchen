@@ -1,8 +1,9 @@
 package receitas.genshin;
 
 import receitas.base.Receita;
+import receitas.base.Exibivel;
 
-public class Clorinde extends Receita {
+public class Clorinde extends Receita implements Exibivel {
 
     public Clorinde() {
         super(

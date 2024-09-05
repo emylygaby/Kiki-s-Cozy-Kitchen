@@ -1,8 +1,9 @@
 package receitas.genshin;
 
 import receitas.base.Receita;
+import receitas.base.Exibivel;
 
-public class Arlecchino extends Receita {
+public class Arlecchino extends Receita implements Exibivel {
 
     public Arlecchino() {
         super(
